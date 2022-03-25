@@ -31,6 +31,6 @@
 
 - 将服务器文件更新到本地
 
-    `git pull`
+    `git pull` 和 `git fetch`(还不太理解)
 
 ---
