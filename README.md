@@ -44,7 +44,7 @@
   
 - 实时查看GPU使用情况
   
-  `watch -l 5 nvidia-smi`
+  `watch -n 5 nvidia-smi`
   
 - 根据PID来查看运行的目录
 
