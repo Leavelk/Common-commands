@@ -34,3 +34,54 @@
     `git pull` 和 `git fetch`(还不太理解)
 
 ---
+
+# 在VS code中使用screen命令
+
+## 需求：让程序在后台能够继续运行(以下前五个命令就够了)
+
+- 创建session
+
+    `screen -C <name>`
+
+- 列出所有的session
+
+    `screen -ls`
+
+- 回到\<name\>的这个session
+
+    `screen -r <name>`
+
+- 远程detach\<name\>的这个session
+
+    `screen -d <name>`
+
+- 结束当前session并回到yourname这个session
+
+    `screen -d -r <name>`
+
+- 当进入了某个session后，可以采用以下命令，并且所有命令都以<kbd>ctrl</kbd>+<kbd>a</kbd>开头。
+
+    - 重命名窗口
+
+        <kbd>ctrl</kbd>+<kbd>a</kbd>，然后<kbd>shift</kbd>+<kbd>a</kbd>
+    
+    - 创建新的窗口
+
+        <kbd>ctrl</kbd>+<kbd>a</kbd>，然后<kbd>c</kbd>
+
+    - 查看所有的窗口
+
+        <kbd>ctrl</kbd>+<kbd>a</kbd>，然后<kbd>w</kbd>
+
+    - 创建新的窗口
+
+        <kbd>ctrl</kbd>+<kbd>a</kbd>，然后<kbd>c</kbd>
+
+    - 关闭窗口
+
+        <kbd>ctrl</kbd>+<kbd>a</kbd>，然后<kbd>k</kbd>
+
+    - detch窗口
+
+        <kbd>ctrl</kbd>+<kbd>a</kbd>，然后<kbd>d</kbd>
+    
