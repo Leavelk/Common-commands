@@ -13,6 +13,12 @@
 
     `git clone https://github.com/PengLongkun/Common-commands.git`
 
+    > 报错的话，可以使用以下命令
+    ````
+    git config --global http.proxy
+    git config --global --unset http.proxy
+    ```
+
 - 修改你需要修改的文件，然后保存
 
     <kbd>command</kbd> + <kbd>s</kbd>
