@@ -14,7 +14,7 @@
     `git clone https://github.com/PengLongkun/Common-commands.git`
 
     > 报错的话，可以使用以下命令
-    ````
+    ```
     git config --global http.proxy
     git config --global --unset http.proxy
     ```
